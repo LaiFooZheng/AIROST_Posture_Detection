@@ -16,17 +16,18 @@ Our project refers to an Android application demonstration by **[TensorFlow Lite
 │   │   └───src
 │   └───gradle
 ├───document_images
-├───main
+├───training
 │   └───posture_data
-│       └───train
-│           ├───forwardhead
-│           └───crossleg
-│           └───standard
+│       ├───forwardhead
+│       ├───crossleg
+│       └───standard
 ```
 
 `android/` contains all files relating to the application
 
-`main/` contains AI training sample data, screenshots and files of the training process using Google Colab `pose_classification.ipynb`.
+`document_images/` contains screenshots and images for README.md
+
+`training/` contains AI training sample data, screenshots and files of the training process using Google Colab `pose_classification.ipynb`.
 
 ## Installation
 
