@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_marginLeft="50dp"
+        >
+
+    <ImageView
+        android:id="@+id/bottom_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_bottom_arrow" />
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:text="Credit: "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <!--text view for displaying course tracks-->
+    <TextView
+        android:id="@+id/Name1"
+        android:layout_width="match_parent"
+        android:layout_below="@id/Title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="Muhammad Adam bin Yaacob"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/Name2"
+        android:layout_width="match_parent"
+        android:layout_below="@id/Name1"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="Lai Foo Zheng"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/Name3"
+        android:layout_width="match_parent"
+        android:layout_below="@id/Name2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:text="Tan Chun Ming"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

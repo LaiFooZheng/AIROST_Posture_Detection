@@ -1,0 +1,34 @@
+<resources>
+<!-- tfe-pe: tensorflow lite pose estimation-->
+    <string name="tfe_pe_app_name">Posture Detection</string>
+    <string name="tfe_pe_request_permission">This app needs camera permission.</string>
+    <string name="tfe_pe_tv_score">Score: %.2f</string>
+    <string name="tfe_pe_tv_model">Model: MoveNet Thunder</string>
+    <string name="tfe_pe_tv_fps">FPS: %d</string>
+    <string name="tfe_pe_tv_debug">DEBUG: %s</string>
+    <string name="tfe_pe_tv_device">Device: </string>
+    <string name="tfe_pe_tv_camera">Camera: Back</string> <!-- ;D -->
+    <string name="action_bar_name" translatable="false">\" GfG | Action Bar\"</string>
+    <string name="option_1" translatable="false">1</string>
+    <string name="option_2" translatable="false">2</string>
+    <string name="option_3" translatable="false">3</string>
+    <string name="show_menu" translatable="false">show menu</string>
+    <string name="view" translatable="false">view</string>
+    <string name="pose_detection" translatable="false">Pose Detection</string>
+    <string name="yoga_detection" translatable="false">Yoga Detection</string>
+    <string name="pose_detection2">Pose Detection</string>
+    <string name="burger">burger</string>
+    <string name="text">text</string>
+
+
+    <string-array name="tfe_pe_device_name">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string-array name="tfe_pe_camera_name">
+        <item>Back</item>
+        <item>Front</item>
+    </string-array>
+</resources>

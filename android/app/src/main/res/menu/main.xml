@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- action button for refresh -->
+        <item android:title="@string/text"
+            android:id="@+id/text"
+            android:orderInCategory="100"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_text"/>
+
+        <group android:checkableBehavior="single">
+                <item android:id="@+id/option_1"
+                    android:title="@string/pose_detection"
+                    android:icon="@drawable/ic_hunchback_vc"
+                    android:checked="true"/>
+                <item android:id="@+id/option_2"
+                    android:title="@string/yoga_detection"
+                    android:icon="@drawable/ic_yoga_vc"/>
+        </group>
+
+</menu>

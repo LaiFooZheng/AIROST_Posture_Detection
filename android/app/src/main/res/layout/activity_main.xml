@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    tools:context="airost.teamrocket.posturedetect.MainActivity">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#66000000">
+
+        <ImageView
+            android:id="@+id/ivStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/no_target" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/menu_button"-->
+<!--        style="@android:style/Widget.Material.Light.ImageButton"-->
+<!--        android:layout_width="98dp"-->
+<!--        android:layout_height="34dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="250dp"-->
+<!--        android:layout_marginTop="64dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:layout_marginBottom="645dp"-->
+<!--        android:adjustViewBounds="false"-->
+<!--        android:bottomLeftRadius="30dp"-->
+<!--        android:bottomRightRadius="30dp"-->
+<!--        android:src="@drawable/ic_burger"-->
+<!--        android:text="@string/pose_detection2"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="12dp"-->
+<!--        android:topLeftRadius="30dp"-->
+<!--        android:topRightRadius="30dp" />-->
+
+
+<!--    <TextView-->
+<!--            android:id="@+id/textView3"-->
+<!--            android:layout_width="140dp"-->
+<!--            android:layout_height="51dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginTop="11dp"-->
+<!--            android:text="Pose Detector"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_anchorGravity="center" />-->
+
+    <!--    </RelativeLayout>-->
+
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:context=".MainActivity">-->
+<!--        <com.google.android.material.button.MaterialButtonToggleGroup-->
+<!--            android:id="@+id/toggleButtonGroup"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:singleSelection="true"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--&lt;!&ndash;            <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/btnLeft"&ndash;&gt;-->
+<!--&lt;!&ndash;                style="@style/ToggleButtonWithIconOnly"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:icon="@drawable/ic_hunchback_vc"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                tools:layout_editor_absoluteX="168dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                tools:layout_editor_absoluteY="153dp" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/btnCenter"&ndash;&gt;-->
+<!--&lt;!&ndash;                style="@style/ToggleButtonWithIconOnly"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:icon="@drawable/ic_yoga_vc"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                tools:layout_editor_absoluteX="173dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                tools:layout_editor_absoluteY="251dp" />&ndash;&gt;-->
+
+
+<!--        </com.google.android.material.button.MaterialButtonToggleGroup>-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <include layout="@layout/bottom_sheet_layout"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
