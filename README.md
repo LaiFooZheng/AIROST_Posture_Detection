@@ -31,7 +31,7 @@ Our project refers to an Android application demonstration by **[TensorFlow Lite
 
 ## Installation
 
-To install our application on your Android device, just download and install the APK package under **[Releases](https://github.com/LaiFooZheng/AIROST_Posture_Detection/releases/tag/release)**. 
+To install our application on your Android device, just download and install the APK package under **[Releases](https://github.com/LaiFooZheng/AIROST_Posture_Detection/releases/tag/v1.0.0)**. 
 If you want to do some testing with our code, it is recommended to do it in Android Studio as our project is build on said platform.
 
 ## Using Android Studio
