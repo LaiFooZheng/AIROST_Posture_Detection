@@ -54,7 +54,6 @@ class CameraSource(
         private const val PREVIEW_HEIGHT = 480
 
         /** Threshold for confidence score. */
-        /** 分数阈值，高于这个分数的人体结果才会被认为是有效的。 */
         private const val MIN_CONFIDENCE = .3f
 
         private const val TAG = "Camera Source"
